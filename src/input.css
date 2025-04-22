@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+    --color-gray-custom: #303030;
+    --color-gray-custom-2: #808080; /*opacity: 70*/
+    --text-zinc-custom: #f3f3f3;
+    --color-green-custom: #28C82E; /*opacity: 50*/
+    --color-sky-custom: #0095FF; /*opacity: 70*/
+    --color-red-custom: #F23737;
+}
