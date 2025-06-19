@@ -13,25 +13,25 @@
                 <div id="display-el" class="h-[110px] rounded-4xl mb-14 bg-green-custom opacity-50 flex justify-end items-end font-semibold text-6xl p-2"></div>
 
                 <div class="grid grid-cols-4 h-[374px] gap-4 font-semibold">
-                        <button id="btn7-el" onclick="sevenBtn()" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">7</button>
-                        <button id="btn8-el" onclick="eightBtn()" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">8</button>
-                        <button id="btn9-el" onclick="nineBtn()" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">9</button>
-                        <button id="btndiv-el" onclick="divide()" class="bg-sky-custom opacity-70 text-5xl text-white rounded-full transition duration-150 ease-in-out active:scale-90">÷</button>
+                        <button onclick="displayButtonValue('7')" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">7</button>
+                        <button onclick="displayButtonValue('8')" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">8</button>
+                        <button onclick="displayButtonValue('9')" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">9</button>
+                        <button onclick="displayButtonValue('/')" class="bg-sky-custom opacity-70 text-5xl text-white rounded-full transition duration-150 ease-in-out active:scale-90">÷</button>
 
-                        <button id="btn4-el" onclick="fourBtn()" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">4</button>
-                        <button id="btn5-el" onclick="fiveBtn()" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">5</button>
-                        <button id="btn6-el" onclick="sixBtn()" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">6</button>
-                        <button id="btnmulti-el" onclick="multiply()" class="bg-sky-custom opacity-70 text-5xl text-white rounded-full transition duration-150 ease-in-out active:scale-90">X</button>
+                        <button onclick="displayButtonValue('4')" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">4</button>
+                        <button onclick="displayButtonValue('5')" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">5</button>
+                        <button onclick="displayButtonValue('6')" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">6</button>
+                        <button onclick="displayButtonValue('*')" class="bg-sky-custom opacity-70 text-5xl text-white rounded-full transition duration-150 ease-in-out active:scale-90">X</button>
 
-                        <button id="btn1-el" onclick="oneBtn()" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">1</button>
-                        <button id="btn2-el" onclick="twoBtn()" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">2</button>
-                        <button id="btn3-el" onclick="threeBtn()" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">3</button>
-                        <button id="btnsub-el" onclick="subtract()" class="bg-sky-custom opacity-70 text-5xl text-white rounded-full transition duration-150 ease-in-out active:scale-90">-</button>
+                        <button onclick="displayButtonValue('1')" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">1</button>
+                        <button onclick="displayButtonValue('2')" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">2</button>
+                        <button onclick="displayButtonValue('3')" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">3</button>
+                        <button onclick="displayButtonValue('-')" class="bg-sky-custom opacity-70 text-5xl text-white rounded-full transition duration-150 ease-in-out active:scale-90">-</button>
 
-                        <button id="btn0-el" onclick="zeroBtn()" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">0</button>
-                        <button id="btndec-el" onclick="decimal()" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">.</button>
-                        <button id="btnequal-el" onclick="equal()" class="bg-red-custom opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">=</button>
-                        <button id="btnadd-el" onclick="sum()" class="bg-sky-custom opacity-70 text-5xl text-white rounded-full transition duration-150 ease-in-out active:scale-90">+</button>
+                        <button onclick="displayButtonValue('0')" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">0</button>
+                        <button onclick="displayButtonValue('.')" class="bg-gray-custom-2 opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">.</button>
+                        <button onclick="calculate()" class="bg-red-custom opacity-70 text-5xl text-white rounded-2xl transition duration-150 ease-in-out active:scale-90">=</button>
+                        <button onclick="displayButtonValue('+')" class="bg-sky-custom opacity-70 text-5xl text-white rounded-full transition duration-150 ease-in-out active:scale-90">+</button>
                 </div>
             </div>
         </div>
