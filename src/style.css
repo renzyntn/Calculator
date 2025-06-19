@@ -8,9 +8,6 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-zinc-200: oklch(92% 0.004 286.32);
-    --color-zinc-300: oklch(87.1% 0.006 286.286);
-    --color-zinc-400: oklch(70.5% 0.015 286.067);
-    --color-zinc-500: oklch(55.2% 0.016 285.938);
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-3xl: 1.875rem;
@@ -194,53 +191,38 @@
   .table {
     display: table;
   }
-  .h-120 {
-    height: calc(var(--spacing) * 120);
-  }
-  .h-125 {
-    height: calc(var(--spacing) * 125);
-  }
   .h-150 {
     height: calc(var(--spacing) * 150);
-  }
-  .h-\[60px\] {
-    height: 60px;
-  }
-  .h-\[70px\] {
-    height: 70px;
-  }
-  .h-\[80px\] {
-    height: 80px;
   }
   .h-\[110px\] {
     height: 110px;
   }
-  .h-\[360px\] {
-    height: 360px;
-  }
   .h-\[374px\] {
     height: 374px;
+  }
+  .h-\[540px\] {
+    height: 540px;
   }
   .h-screen {
     height: 100vh;
   }
-  .w-\[60px\] {
-    width: 60px;
+  .w-\[360px\] {
+    width: 360px;
   }
-  .w-\[70px\] {
-    width: 70px;
-  }
-  .w-\[80px\] {
-    width: 80px;
+  .w-\[390px\] {
+    width: 390px;
   }
   .w-full {
     width: 100%;
   }
-  .max-w-\[320px\] {
-    max-width: 320px;
+  .max-w-\[360px\] {
+    max-width: 360px;
   }
   .max-w-\[390px\] {
     max-width: 390px;
+  }
+  .min-w-\[390px\] {
+    min-width: 390px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -265,21 +247,6 @@
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
-  }
-  .gap-5 {
-    gap: calc(var(--spacing) * 5);
-  }
-  .gap-x-4 {
-    column-gap: calc(var(--spacing) * 4);
-  }
-  .gap-x-5 {
-    column-gap: calc(var(--spacing) * 5);
-  }
-  .gap-y-1 {
-    row-gap: calc(var(--spacing) * 1);
-  }
-  .gap-y-4 {
-    row-gap: calc(var(--spacing) * 4);
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
@@ -320,14 +287,6 @@
   }
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
-  }
-  .text-3xl {
-    font-size: var(--text-3xl);
-    line-height: var(--tw-leading, var(--text-3xl--line-height));
-  }
-  .text-4xl {
-    font-size: var(--text-4xl);
-    line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
   .text-5xl {
     font-size: var(--text-5xl);
